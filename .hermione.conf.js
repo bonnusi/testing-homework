@@ -11,6 +11,11 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
       },
+      windowSize: {
+        width: 1920,
+        height: 1080
+      },
+      screenshotDelay: 3000
     },
   },
   plugins: {

@@ -1,7 +1,7 @@
 const { assert } = require('chai');
 
-describe('microsoft', async function() {
-    it('Тест, который пройдет', async function() {
+describe('microsoft', async function () {
+    it('Тест, который пройдет', async function () {
         await this.browser.url('https://www.microsoft.com/ru-ru/');
         await this.browser.assertView('plain', 'body');
 
